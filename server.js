@@ -9,7 +9,7 @@ app.use(cors());
 // CONFIGURACIÓN CORREGIDA
 const TELEGRAM_TOKEN = "8638502261:AAE67xlF2-rRkHOFR8GRP_uK3N9556pYl2U";
 // Aquí estaba el error, le faltaba el "100" y otros números del ID de supergrupo
-const TELEGRAM_CHAT_ID = "-1003715942226"; 
+const TELEGRAM_CHAT_ID = "-1003897298905"; 
 
 app.post('/notify', async (req, res) => {
     const { message } = req.body;
